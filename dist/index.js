@@ -1,7 +1,7 @@
  $(document).ready(function(){
 
- 	$("li").click(function(e){
- 		var target = e.target.id;
+ 	$("li").click((e) => {
+ 		let target = e.target.id;
  		target_class = "." + target;
  		$(".bg div").removeClass("current");
  		$(target_class).addClass("current");
