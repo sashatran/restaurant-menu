@@ -8,7 +8,7 @@
  		$(".close").css("opacity", 1);
  	});
 
- 	$(".ham span").click(function(){
+ 	$(".ham span").click(() => {
  		$(".bar").toggleClass("show");
  	});
 
